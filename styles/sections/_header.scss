@@ -1,0 +1,53 @@
+.header {
+  &__inner {
+    display: flex;
+    align-items: center;
+    height: var(--header-height);
+
+    @include mobile {
+      justify-content: space-between;
+    }
+  }
+
+  &__menu {
+    margin-left: auto;
+    margin-right: 30px;
+
+    @include tablet {
+        margin-right: 25px;
+    }
+
+    &-list {
+      display: flex;
+      align-items: center;
+      column-gap: 16px;
+    }
+
+    &-link {
+      @include center-content(true);
+
+      height: var(--header-height);
+      font-weight: 500;
+      color: var(--color-dark-grey);
+      transition-property: opacity;
+      transition-duration: var(--transition-duration);
+
+      @include hover {
+        opacity: 0.7;
+      }
+    }
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+  }
+
+  &__button {
+    @include tablet {
+      column-gap: 8px;
+      height: 48px;
+      padding-inline: 28px;
+    }
+  }
+}

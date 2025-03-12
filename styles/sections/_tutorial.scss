@@ -1,0 +1,26 @@
+.tutorial {
+  &__inner {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+
+    @include mobile {
+      flex-direction: column;
+    }
+  }
+
+  &__image {
+    @include mobile {
+      order: 1;
+    }
+  }
+
+  &__body {
+    max-width: 750px;
+
+    @include mobile {
+      order: 0;
+      margin-bottom: 30px;
+    }
+  }
+}

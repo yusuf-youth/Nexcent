@@ -1,0 +1,41 @@
+.pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  translate: -50% 0;
+
+  &__list {
+    display: flex;
+    column-gap: 3px;
+  }
+
+  &__button {
+    @include center-content(true);
+    @include reset-button;
+    @include square(20px);
+
+    transition-property: opacity;
+    transition-duration: var(--transition-duration);
+
+    @include hover {
+      &::after {
+        opacity: 1;
+      }
+    }
+
+    &.is-current {
+      &::after {
+        opacity: 1;
+      }
+    }
+
+    &::after {
+      @include square(13px);
+
+      content: "";
+      background-color: var(--color-accent);
+      border-radius: 50%;
+      opacity: 0.5;
+    }
+  }
+}

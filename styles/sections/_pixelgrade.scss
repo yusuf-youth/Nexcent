@@ -1,0 +1,24 @@
+.pixelgrade {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+
+    @include mobile {
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__body {
+    max-width: 650px;
+  }
+
+  &__description {
+    margin-bottom: 27px;
+
+    @include mobile {
+      margin-bottom: 22px;
+    }
+  }
+}

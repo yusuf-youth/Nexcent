@@ -1,0 +1,46 @@
+.hero {
+  position: relative;
+  padding-block: 100px;
+
+  @include mobile {
+    padding-block: 60px;
+  }
+
+  &__inner {
+    display: flex;
+    align-items: start;
+    column-gap: 40px;
+
+    @include mobile {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__body {
+    @include mobile {
+      order: 1;
+    }
+  }
+
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__description {
+    margin-bottom: 27px;
+
+    @include mobile {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__image {
+    @include mobile {
+      order: 0;
+      margin-bottom: 30px;
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+}

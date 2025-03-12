@@ -1,0 +1,9 @@
+.demo {
+    text-align: center;
+    background-color: var(--color-silver);
+
+    &__title {
+        word-wrap: break-word;
+        color: var(--color-dark-alt);
+    }
+}

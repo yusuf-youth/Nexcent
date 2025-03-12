@@ -1,0 +1,61 @@
+.testimonials {
+  background-color: var(--color-silver);
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 30px;
+
+    @include tablet {
+      flex-direction: column;
+    }
+  }
+
+  &__image {
+    flex-shrink: 0;
+
+    @include tablet {
+      align-self: center;
+
+      width: 100%;
+      max-width: 450px;
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 27px;
+    max-width: 800px;
+  }
+
+  &__qoute {
+    font-weight: 500;
+    line-height: 1.6;
+  }
+
+  &__name {
+    @include fluid-text(18, 20);
+
+    margin-bottom: 10px;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+  }
+
+  &__bottom {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    @include desktop {
+      align-items: start;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}

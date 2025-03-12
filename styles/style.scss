@@ -1,0 +1,34 @@
+@import 
+    "normalize", 
+    "fonts", 
+    "mixins", 
+    "media", 
+    "variables", 
+    "utils", 
+    "globals";
+
+@import 'blocks/button',
+        'blocks/burger-button',
+        'blocks/label',
+        'blocks/pagination',
+        'blocks/membership-card',
+        'blocks/achievments-card',
+        'blocks/link',
+        'blocks/blogs-card',
+        'blocks/socials',
+        'blocks/footer-links',
+        'blocks/subscription',
+        'blocks/input';
+
+@import 'sections/header',
+        'sections/hero',
+        'sections/clients',
+        'sections/membership',
+        'sections/pixelgrade',
+        'sections/achievments',
+        'sections/tutorial',
+        'sections/testimonials',
+        'sections/blogs',
+        'sections/demo',
+        'sections/footer',
+        'sections/mobile-overlay';

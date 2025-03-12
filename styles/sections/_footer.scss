@@ -1,0 +1,66 @@
+.footer {
+  padding-block: 70px;
+  color: var(--color-silver);
+  background-color: var(--color-dark);
+
+  @include mobile {
+    padding-block: 50px;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px 30px;
+    flex-wrap: wrap;
+  }
+
+  &__company-info {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+    @include tablet {
+      flex-direction: row;
+      gap: 50px;
+    }
+
+    @include mobile {
+      flex-direction: column;
+      gap: 25px;
+    }
+  }
+
+  &__copyright {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+
+    &-text {
+      font-size: 13px;
+    }
+  }
+
+  &__columns {
+    &-list {
+      display: flex;
+      align-items: start;
+      gap: 40px 120px;
+      flex-wrap: wrap;
+
+      @include desktop {
+        column-gap: 80px;
+      }
+
+      @include tablet {
+        column-gap: 100px;
+      }
+    }
+
+    &-title {
+      @include fluid-text(18, 24);
+
+      margin-bottom: 25px;
+      color: var(--color-silver);
+    }
+  }
+}
