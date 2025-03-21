@@ -1,9 +1,7 @@
 <img src="https://cdn.prod.website-files.com/62559f10d346a48347577030/6435554f6ffb9a07b9c1b711_1551156_JoinItMembershipManagementGuide_Image1_021023_h0dwne.webp" width="500" />
 <br />
 
-<i>Hi there! This is a website I built from Figma template for demonstration to potential employers.</i> 
-
-Nexcent is a platform for managing memberships, automating renewals, payments, and event bookings for organizations and clubs. <a href="https://yusuf-youth.github.io/Nexcent/" target="_blank">Website</a>, <a href="https://www.figma.com/design/6cQwnebsxYceg7Dl4YSJWD/Nexcent?node-id=0-1&p=f&t=Om1HaaACwda4stDY-0">Template</a>. <br />
+Nexcent is a platform for managing memberships, automating renewals, payments, and event bookings for organizations and clubs. Created from a Figma template, this project demonstrates my skills in converting UI/UX designs into polished, interactive, and fully functional websites. <a href="https://yusuf-youth.github.io/Nexcent/" target="_blank">Website</a>, <a href="https://www.figma.com/design/6cQwnebsxYceg7Dl4YSJWD/Nexcent?node-id=0-1&p=f&t=Om1HaaACwda4stDY-0">Template</a>. <br />
 
 <h2>Structure</h2>
 The project is structured with following folders: 
