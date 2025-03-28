@@ -49,5 +49,19 @@ The project has several features:
   </li>  
 </ul>
 
+<h2>chatGPT</h2>
+During development, i used multiple times chatGPT to help with several issues listed below:
+<ul>
+  <li>
+    <b>Naming CSS Variables. </b> I used chatGPT to give me clear and easy CSS variables ensuring readability and future-proofing. 
+  </li>
+  <li>
+    <b>Naming Elements. </b> Whenever i came across an element that i doubted how to name it, chatGPT gave me a list of appropriate names for that element so the code stays organized, scalable, and developer-friendly.
+  </li>
+  <li>
+    <b>Accessibility. </b> chatGPT helped to generate appropriate <i>alt</i> texts for images for better accessibility.
+  </li>
+</ul>
+
 <br />
 To wrap it up, the project is built using the latest standards such as BEM and SCSS, its maintainable thanks to BEM, it is accessible to screen readers, and is written semantically for better SEO.
