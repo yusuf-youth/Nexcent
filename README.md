@@ -42,6 +42,9 @@ The project has several features:
     <b>SCSS. </b>The project is written in the SCSS preprocessor and contains useful features such as mixins for comfortable styling.
   </li>
   <li>
+    <b>Fluid Typography. </b> Headings adapt to different screen sizes without needing media queries, ensuring text looks great on all devices.
+  </li>
+  <li>
     <b>Accessibility. </b>The project takes into account accessibility features and screen readers, so it contains useful information for people with low vision.
   </li>
   <li>
