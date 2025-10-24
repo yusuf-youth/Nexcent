@@ -65,5 +65,4 @@ During development, i used multiple times chatGPT to help with several issues li
   </li>
 </ul>
 
-<br />
 To wrap it up, the project is built using the latest standards such as BEM and SCSS, its maintainable thanks to BEM, it is accessible to screen readers, and is written semantically for better SEO.
